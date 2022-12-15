@@ -1,0 +1,147 @@
+.toolbar{
+padding: 0 13rem;
+height: 50px;
+background-color:  #333333;;
+}
+.button-container{
+    margin: auto;
+    margin-right: 0;  
+    display: flex;
+    align-items: center;
+
+    .toolbar-button{
+        font-size:13px;
+        background: none;
+        color: white;
+        border: none;
+        padding: 0 16px 0 8px;
+        cursor: pointer;
+        &:hover{
+            color: #FE3737;
+        }
+    }
+    
+}
+.contact-info{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  mat-icon{
+    font-size: 18px;
+    
+  }
+  span{
+    padding: 0 16px 0 8px;
+  }
+}
+
+.container{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .favourites,
+    .shop-bag{
+        border:none;
+        background:transparent;
+        mat-icon{
+            font-size: 34px;
+            width: 2rem;
+            height: 40px;
+            color: #333333;
+        }
+    }
+    img{
+        width: 20%;
+        margin: 0 29rem;
+    }
+
+    ::ng-deep.mat-form-field-infix{
+        border-bottom: 1px solid  #646262;
+        display: flex;
+        input{
+            color: #646262;
+            padding: 0 16px;
+        }
+    }
+
+    .search{
+       
+        mat-icon{
+            font-size: 30px;
+            color: #646262;
+            position:absolute;
+            top: 1px;
+            left: -25px;
+        }
+    }
+    
+}
+
+.Menu{
+    mat-list-item{
+        color:black;
+    }
+}
+
+.nav-list{
+    background-color: transparent;
+    
+    .button-list{
+        display: flex;
+        width: 55%;
+        margin: 0 auto;
+        .align{
+            display: flex;
+            align-items: center;
+        }
+        mat-icon{
+            font-size: 17px;
+            font-weight: 100;
+            line-height: 1.4;
+        }
+        
+        mat-list-item{
+            span{
+                font-size: 1.3em;
+                font-weight: 600;
+            }
+            &:hover{
+                color: #FE3737;
+            }
+        }
+        .mat-menu-trigger{
+            border: none;
+            background-color: transparent;
+            font-size: 1em;
+            font-weight: 500;
+            padding: 0;
+            &:hover{
+                color: #FE3737;
+            }
+        }
+    }
+}
+.deals{
+    font-weight: 600;
+    font-size: 20px;
+    width: 77%;
+    margin: 40px auto;
+    border-bottom: 1px solid #d1cece;
+    color: black;
+}
+
+::ng-deep.mat-menu-content{
+    width: 200px;
+    background-color: white;
+    button{
+        color: black;
+        font-weight: 500;
+        &:hover{
+            color:#FE3737 ;
+        }
+    }
+}
